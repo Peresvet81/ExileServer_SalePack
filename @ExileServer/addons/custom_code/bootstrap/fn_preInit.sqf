@@ -33,7 +33,7 @@ forEach
 	['ExileServer_util_getWeaponAttachementCargo', 	'\custom_code\scripts\ExileServer_util_getWeaponAttachementCargo.sqf',false],
 	['ExileServer_util_getWeaponMagCargo', 			'\custom_code\scripts\ExileServer_util_getWeaponMagCargo.sqf',false],
 
-	['AtlasClient_system_check_TeamSpeak', 			'\custom_code\scripts\AtlasClient_system_check_TeamSpeak.sqf',false],
+	//['AtlasClient_system_check_TeamSpeak', 			'\custom_code\scripts\AtlasClient_system_check_TeamSpeak.sqf',false],
 	['AtlasServer_system_spawnItemAgain', 			'\custom_code\scripts\AtlasServer_system_spawnItemAgain.sqf',false],
 	['AtlasServer_system_spawnItemsOnPos', 			'\custom_code\scripts\AtlasServer_system_spawnItemsOnPos.sqf',false],
 	['AtlasClient_system_weaponOnlyForUids', 		'\custom_code\scripts\AtlasClient_system_weaponOnlyForUids.sqf',true],
