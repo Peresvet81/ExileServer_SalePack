@@ -259,7 +259,7 @@ class CfgTaskForceRadio
 		Включить плагин настройки TFAR
 		Не забудьте также разрешить TFAR в infiStar
 	*/
-	enable = true;
+	enable = false;
 	
 	//Время для проверки, каждые N-минут
 	timeToCheck = 5;
