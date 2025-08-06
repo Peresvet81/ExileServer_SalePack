@@ -83,7 +83,7 @@ ExileClient_object_lock_toggle = 						"custom\client_code\ExileClient_object_lo
 ExileClient_object_vehicle_interaction_show =           "custom\client_code\ExileClient_object_vehicle_interaction_show.sqf";
 
 //ExileClient_system_autoRun_canAutoRun =                 "custom\client_code\ExileClient_system_autoRun_canAutoRun.sqf";
-ExileClient_system_autoRun_stop =                       "custom\client_code\ExileClient_system_autoRun_stop.sqf";
+//ExileClient_system_autoRun_stop =                       "custom\client_code\ExileClient_system_autoRun_stop.sqf";
 
 //PvE custom
 ExileClient_system_breaching_action = 					"custom\client_code\ExileClient_system_breaching_action.sqf";		
