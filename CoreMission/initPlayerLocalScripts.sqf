@@ -30,10 +30,10 @@ _pic = ""; //Путь к картинке
   if ((animationState player) in _fs) then{_f = (getPos player select 2);if (_f < 0.1) then {player setvelocity [0,0,0];};};
  },[],true,true] call ExileClient_system_thread_addtask;
 
-if(getNumber(missionConfigFile >> "CfgTaskForceRadio" >> "enable") isEqualTo 1) then
-{
-	tfWarn = 0;
-	[] spawn AtlasClient_system_check_TeamSpeak;
-};
+//if(getNumber(missionConfigFile >> "CfgTaskForceRadio" >> "enable") isEqualTo 1) then
+//{
+//	tfWarn = 0;
+//	[] spawn AtlasClient_system_check_TeamSpeak;
+//};
 
 if (!hasInterface || isServer) exitWith {};
