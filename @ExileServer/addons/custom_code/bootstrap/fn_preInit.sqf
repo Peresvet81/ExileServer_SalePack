@@ -50,12 +50,12 @@ forEach
 	['ExileServer_object_flag_network_updateFlagHackAttemptRequest', 	'\custom_code\scripts\FlagHacking\ExileServer_object_flag_network_updateFlagHackAttemptRequest.sqf',false]
 ];
 
-{
-    missionNamespace setVariable [_x select 0,_x select 1,true];
-} forEach 
-[
-	["tf_radio_server_name", getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakServerName")],
-    ["tf_radio_channel_name",  getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakChannel")],
-    ["tf_radio_channel_password",  getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakChannelPassword")]
-];
+//{
+//    missionNamespace setVariable [_x select 0,_x select 1,true];
+//} forEach 
+//[
+//	["tf_radio_server_name", getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakServerName")],
+//    ["tf_radio_channel_name",  getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakChannel")],
+//    ["tf_radio_channel_password",  getText(missionConfigFile >> "CfgTaskForceRadio" >> "TeamSpeakChannelPassword")]
+//];
 true
